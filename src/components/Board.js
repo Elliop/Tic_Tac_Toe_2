@@ -14,13 +14,13 @@ export default function Board(props) {
         <Square
           value={props.squares[1]}
           onClick={() => {
-            props.onClick(0);
+            props.onClick(1);
           }}
         />
         <Square
           value={props.squares[2]}
           onClick={() => {
-            props.onClick(0);
+            props.onClick(2);
           }}
         />
       </div>
